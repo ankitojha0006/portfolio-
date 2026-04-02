@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankit Kumar Ojha · Java Developer Portfolio</title>
+    <link rel="stylesheet" href="portfolio3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-poster" aria-hidden="true"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="wordmark" href="#home" aria-label="Home">
+          <span class="wm-a">Ankit</span>
+          <span class="wm-b">Ojha</span>
+        </a>
+
+        <nav class="nav">
+          <a href="#work" class="nav-link active">Work</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#certs" class="nav-link">Certs</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <button class="menu" type="button" aria-label="Toggle menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="home" class="page">
+      <section class="hero">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="badge-row">
+              <span class="badge">Java Developer</span>
+              <span class="badge ghost">Backend Focus</span>
+            </div>
+
+            <h1 class="hero-title">
+              Turning <span class="ink">ideas</span> into
+              <span class="ink">reliable</span> systems.
+            </h1>
+
+            <p class="hero-sub">
+              I'm <strong>Ankit Kumar Ojha</strong> — I build Java backend projects with clean structure,
+              clear OOP design, and maintainable code. I enjoy learning, shipping, and solving problems
+              with a team.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn primary" href="#work">View projects</a>
+              <a class="btn secondary" href="#contact">Contact</a>
+            </div>
+
+            <div class="hero-mini">
+              <div class="mini">
+                <span class="mini-k">Phone</span>
+                <span class="mini-v">6204056593</span>
+              </div>
+              <div class="mini">
+                <span class="mini-k">Email</span>
+                <a class="mini-v contact-link" href="mailto:ankitojha0004@gmail.com">ankitojha0004@gmail.com</a>
+              </div>
+              <div class="mini">
+                <span class="mini-k">LinkedIn</span>
+                <a
+                  class="mini-v contact-link"
+                  href="https://linkedin.com/in/ankit-ojha-58b08b231"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >linkedin.com/in/ankit-ojha-58b08b231</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-art">
+            <div class="poster">
+              <div class="poster-top">
+                <div class="poster-tag">Available</div>
+                <div class="poster-tag alt">Open to roles</div>
+              </div>
+
+              <div class="poster-center">
+                <div class="photo-frame" aria-label="Profile photo">
+                  <img
+                    class="profile-photo"
+                    src="assets/profile-photo.png"
+                    alt="Ankit Kumar Ojha profile photo"
+                  />
+                  <div class="photo-glow" aria-hidden="true"></div>
+                </div>
+              </div>
+
+              <div class="poster-bottom">
+                <div class="stat">
+                  <span class="stat-k">Projects</span>
+                  <span class="stat-v">3</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-k">Core</span>
+                  <span class="stat-v">OOP</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-k">DB</span>
+                  <span class="stat-v">MySQL</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="marquee" aria-hidden="true">
+              <div class="marquee-track">
+                <span>JAVA · OOP · DBMS · MYSQL · HTML · CSS · JAVASCRIPT · UI/UX · FIGMA ·</span>
+                <span>JAVA · OOP · DBMS · MYSQL · HTML · CSS · JAVASCRIPT · UI/UX · FIGMA ·</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section">
+        <div class="section-head">
+          <p class="kicker">Projects</p>
+          <h2>Selected work</h2>
+          <p class="lead">Java projects across console apps, backend systems, and real-time communication.</p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <div class="card-visual vis-1"></div>
+            <div class="card-body">
+              <h3>ATM Machine System</h3>
+              <p>
+                OOP-based ATM processing system: authentication, balance inquiry, withdrawal, and deposits
+                using classes like <strong>ATM</strong>, <strong>User</strong>, and <strong>Bank</strong>.
+              </p>
+              <div class="chips">
+                <span>Java</span><span>OOP</span><span>Modular</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-visual vis-2"></div>
+            <div class="card-body">
+              <h3>Hangman Game</h3>
+              <p>
+                Console game with random word selection, attempt tracking, and clear win/lose states
+                after 5 tries.
+              </p>
+              <div class="chips">
+                <span>Java</span><span>Logic</span><span>CLI</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-visual vis-1"></div>
+            <div class="card-body">
+              <h3>Real-Time Video + Chat Platform</h3>
+              <p>
+                Built a real-time communication platform supporting video meetings, instant messaging,
+                and room-based collaboration with low-latency updates.
+              </p>
+              <div class="chips">
+                <span>WebRTC</span><span>Socket.IO</span><span>Real-time</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-visual vis-2"></div>
+            <div class="card-body">
+              <h3>Team Chat Application</h3>
+              <p>
+                Multi-user chat app with live typing indicators, online/offline presence, and persistent
+                chat rooms for team communication.
+              </p>
+              <div class="chips">
+                <span>Node.js</span><span>Sockets</span><span>Collaboration</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-head split">
+          <div>
+            <p class="kicker">About</p>
+            <h2>Built for clarity</h2>
+          </div>
+          <p class="lead">
+            Backend work is about structure: clean data, clear responsibilities, and predictable behavior.
+            I enjoy writing code that is easy to read, extend, and maintain.
+          </p>
+        </div>
+
+        <div class="grid tiles">
+          <div class="tile">
+            <h3>Strengths</h3>
+            <ul>
+              <li>Object-oriented design</li>
+              <li>Problem solving & debugging</li>
+              <li>Clear, modular code structure</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>Achievements</h3>
+            <ul>
+              <li>Class Representative</li>
+              <li>Event Coordinator</li>
+              <li>E-Sports Coordinator</li>
+            </ul>
+          </div>
+
+          <div class="tile">
+            <h3>Goal</h3>
+            <p>Join a strong team, contribute to real systems, and grow into a backend engineer.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-head">
+          <p class="kicker">Skills</p>
+          <h2>Tools & tech</h2>
+        </div>
+
+        <div class="grid stack">
+          <div class="stack-col">
+            <h3>Languages</h3>
+            <p class="muted"> Advanced Java · C++ · PHP</p>
+          </div>
+          <div class="stack-col">
+            <h3>Web</h3>
+            <p class="muted">HTML · CSS · Tailwind CSS · JavaScript</p>
+          </div>
+          <div class="stack-col">
+            <h3>Design</h3>
+            <p class="muted">UI/UX · Figma · Adobe XD</p>
+          </div>
+          <div class="stack-col">
+            <h3>Database</h3>
+            <p class="muted">DBMS · MySQL  firebase</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="section-head">
+          <p class="kicker">Education</p>
+          <h2>Academics</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <h3>GITAM University</h3>
+              <p class="muted">Master of Computer Applications (MCA) · 2025–2027 · Currently Pursuing</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <h3>Chandigarh University</h3>
+              <p class="muted">Bachelor of Computer Applications · 2021–2024 · CGPA 6.16</p>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <h3>Sant Tulsi Das Degree College</h3>
+              <p class="muted">2020 · CGPA 7.5</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="certs" class="section">
+        <div class="section-head split">
+          <div>
+            <p class="kicker">Certifications</p>
+            <h2>Proof of learning</h2>
+          </div>
+          <p class="lead">Courses and certifications that support my foundation in development and design.</p>
+        </div>
+
+        <div class="grid certs">
+          <div class="cert">
+            <h3>Industry 4.0 & IoT</h3>
+            <p class="muted">SWAYAM (NPTEL)</p>
+          </div>
+          <div class="cert">
+            <h3>UI/UX Design</h3>
+            <p class="muted">Novam Technology</p>
+          </div>
+          <div class="cert">
+            <h3>Web Application Development with PHP</h3>
+            <p class="muted">Coursera</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-card">
+          <div>
+            <p class="kicker">Contact</p>
+            <h2>Let’s talk</h2>
+            <p class="lead">Send a message and I’ll reply as soon as possible.</p>
+
+            <div class="contact-lines">
+              <div class="line">
+                <span class="line-k">Email</span>
+                <a class="line-v contact-link" href="mailto:ankitojha0004@gmail.com">ankitojha0004@gmail.com</a>
+              </div>
+              <div class="line">
+                <span class="line-k">Phone</span>
+                <span class="line-v">6204056593</span>
+              </div>
+            </div>
+          </div>
+
+          <form class="form" onsubmit="return false;">
+            <div class="row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" type="text" placeholder="Your name" />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="you@example.com" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="msg">Message</label>
+              <textarea id="msg" rows="4" placeholder="Write your message..."></textarea>
+            </div>
+
+            <button class="btn primary full" type="submit">Send</button>
+            <p class="fine">Demo form — connect to email/service later.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Ankit Kumar Ojha · Designed with stylish photo.</p>
+    </footer>
+
+    <script src="v3.js"></script>
+  </body>
+</html>
+

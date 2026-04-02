@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neo Aura Portfolio</title>
+  <link rel="stylesheet" href="alt.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background-orbit"></div>
+  <div class="background-grid"></div>
+
+  <header class="shell">
+    <div class="shell-inner">
+      <div class="brand">
+        <div class="brand-mark">
+          <span class="dot dot-1"></span>
+          <span class="dot dot-2"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Your Name</span>
+          <span class="brand-role">Creative Frontend Engineer</span>
+        </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="#intro" class="top-link active">Intro</a>
+        <a href="#work" class="top-link">Work</a>
+        <a href="#stack" class="top-link">Stack</a>
+        <a href="#connect" class="top-link">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="side-rail">
+      <div class="rail-label">Scroll</div>
+      <div class="rail-dots">
+        <button class="rail-dot active" data-target="#intro"></button>
+        <button class="rail-dot" data-target="#work"></button>
+        <button class="rail-dot" data-target="#stack"></button>
+        <button class="rail-dot" data-target="#connect"></button>
+      </div>
+      <div class="rail-line"></div>
+    </aside>
+
+    <section id="intro" class="panel panel-intro">
+      <div class="panel-inner intro-grid">
+        <div class="intro-main">
+          <p class="chip">Portfolio · 2026 Edition</p>
+          <h1>
+            Designing <span class="gradient-word">bold</span> digital
+            experiences with <span class="underline">precision</span>.
+          </h1>
+          <p class="lede">
+            I blend interface design, motion, and engineering to craft web products
+            that feel sharp, fluid, and memorable.
+          </p>
+
+          <div class="intro-actions">
+            <a href="#work" class="btn-solid">See highlights</a>
+            <a href="#connect" class="btn-ghost">Book a call</a>
+          </div>
+
+          <div class="intro-chips">
+            <div>
+              <span class="chip-label">Focus</span>
+              <span class="chip-value">Web UI · Motion · Systems</span>
+            </div>
+            <div>
+              <span class="chip-label">Currently</span>
+              <span class="chip-value">Available for remote roles</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro-side">
+          <div class="orbital-card">
+            <div class="orbital-avatar">
+              <div class="ring ring-1"></div>
+              <div class="ring ring-2"></div>
+              <div class="avatar-core">
+                <span>YN</span>
+              </div>
+            </div>
+            <div class="orbital-meta">
+              <div>
+                <span class="meta-title">Timezone</span>
+                <span class="meta-detail">GMT+X</span>
+              </div>
+              <div>
+                <span class="meta-title">Response</span>
+                <span class="meta-detail">~24 hours</span>
+              </div>
+              <div>
+                <span class="meta-title">Style</span>
+                <span class="meta-detail">Minimal · Futuristic</span>
+              </div>
+            </div>
+            <div class="orbital-footer">
+              <span class="pill">Open to freelance</span>
+              <span class="pill">Portfolio template</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="panel panel-work">
+      <div class="panel-inner">
+        <header class="panel-header">
+          <p class="eyebrow">Featured work</p>
+          <div>
+            <h2>Interfaces that feel crafted</h2>
+            <p class="panel-sub">
+              A small selection of projects and concepts that show how I think
+              about layout, color, and interaction.
+            </p>
+          </div>
+        </header>
+
+        <div class="work-grid">
+          <article class="work-card large">
+            <div class="work-visual gradient-1">
+              <div class="overlay-tag">Dashboard System</div>
+            </div>
+            <div class="work-body">
+              <h3>Signal Studio</h3>
+              <p>
+                A trading analytics dashboard with multi-layered charts,
+                ambient motion, and a focus on dense-yet-readable layouts.
+              </p>
+              <div class="tag-row">
+                <span>React</span>
+                <span>Tailwind</span>
+                <span>Framer Motion</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-visual gradient-2">
+              <div class="overlay-tag">Landing Page</div>
+            </div>
+            <div class="work-body">
+              <h3>Aurora Launch</h3>
+              <p>
+                Product launch page with layered gradients, scroll-based reveals,
+                and a cinematic hero.
+              </p>
+              <div class="tag-row">
+                <span>HTML</span>
+                <span>CSS Grid</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="work-card">
+            <div class="work-visual gradient-3">
+              <div class="overlay-tag">Concept</div>
+            </div>
+            <div class="work-body">
+              <h3>Studio Palette</h3>
+              <p>
+                A minimal interface for exploring color systems, type scales,
+                and grid presets.
+              </p>
+              <div class="tag-row">
+                <span>Figma</span>
+                <span>Design Systems</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="panel panel-stack">
+      <div class="panel-inner">
+        <header class="panel-header">
+          <p class="eyebrow">Stack</p>
+          <div>
+            <h2>Tools I enjoy using</h2>
+            <p class="panel-sub">
+              A mix of frameworks, libraries, and platforms I reach for when
+              building smooth web experiences.
+            </p>
+          </div>
+        </header>
+
+        <div class="stack-grid">
+          <div class="stack-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>React / Next.js</li>
+              <li>TypeScript</li>
+              <li>Modern CSS · Grid / Flex</li>
+            </ul>
+          </div>
+          <div class="stack-column">
+            <h3>Experience</h3>
+            <ul>
+              <li>Design-to-dev handoff</li>
+              <li>Motion & micro-interactions</li>
+              <li>Design systems thinking</li>
+            </ul>
+          </div>
+          <div class="stack-column">
+            <h3>Workflow</h3>
+            <ul>
+              <li>Figma / Prototyping</li>
+              <li>Git & GitHub</li>
+              <li>Component-driven dev</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect" class="panel panel-connect">
+      <div class="panel-inner connect-grid">
+        <div>
+          <p class="eyebrow">Connect</p>
+          <h2>Tell me about your idea</h2>
+          <p class="panel-sub">
+            Whether it's a product, a site redesign, or just something you're
+            curious about, I'd love to hear it.
+          </p>
+
+          <div class="social-links">
+            <a href="#" class="social-pill">Behance</a>
+            <a href="#" class="social-pill">Dribbble</a>
+            <a href="#" class="social-pill">GitHub</a>
+          </div>
+
+          <div class="contact-meta">
+            <div>
+              <span class="meta-title">Email</span>
+              <span class="meta-detail">your.email@example.com</span>
+            </div>
+            <div>
+              <span class="meta-title">Location</span>
+              <span class="meta-detail">Your City, Country</span>
+            </div>
+          </div>
+        </div>
+
+        <form class="connect-form" onsubmit="return false;">
+          <div class="field">
+            <label for="project">Project type</label>
+            <input id="project" type="text" placeholder="Website, product, brand, etc." />
+          </div>
+          <div class="field">
+            <label for="budget">Rough budget</label>
+            <input id="budget" type="text" placeholder="Example: $2k–$5k" />
+          </div>
+          <div class="field">
+            <label for="details">Details</label>
+            <textarea id="details" rows="4" placeholder="What are you aiming to build?"></textarea>
+          </div>
+          <button type="submit" class="btn-solid full">Share the brief</button>
+          <p class="small-note">This is a demo form – hook into your favorite email or form service.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bottom-bar">
+    <p>© <span id="alt-year"></span> Your Name · Neo Aura Portfolio</p>
+  </footer>
+
+  <script src="alt.js"></script>
+</body>
+</html>
+
